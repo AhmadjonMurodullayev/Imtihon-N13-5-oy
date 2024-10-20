@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography, Link, Grid, IconButton, Container } from "@mui/material";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/headerlogo.png"
 export default function Footer() {
   return (
     <Container maxWidth="Xs">
