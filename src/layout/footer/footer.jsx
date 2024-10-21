@@ -1,6 +1,9 @@
 import React from "react";
 import { Box, Typography, Link, Grid, IconButton, Container } from "@mui/material";
 import logo from "../../assets/headerlogo.png"
+import Facebook from "../../assets/icons/facebook";
+import Instagiram from "../../assets/icons/instagiram";
+import Tiwitter from "../../assets/icons/tiwitter";
 export default function Footer() {
   return (
     <Container maxWidth="Xs">
@@ -21,7 +24,7 @@ export default function Footer() {
           <Typography>Address: 88 road, borklyn street, USA</Typography>
         </Grid>
 
-        <Grid item xs={12} md={4}>
+        <Grid  item xs={12} md={4}>
           <img src={logo} alt="" />
           <Typography>
             Simply dummy text of the printing and typesetting industry. Lorem
@@ -35,9 +38,9 @@ export default function Footer() {
               marginTop: "20px",
             }}
           >
-            <IconButton color="primary"></IconButton>
-            <IconButton color="primary"></IconButton>
-            <IconButton color="primary"></IconButton>
+            <IconButton color="primary"><Facebook/></IconButton>
+            <IconButton color="primary"><Instagiram/> </IconButton>
+            <IconButton color="primary"><Tiwitter/></IconButton>
             <IconButton color="primary"></IconButton>
           </Box>
         </Grid>

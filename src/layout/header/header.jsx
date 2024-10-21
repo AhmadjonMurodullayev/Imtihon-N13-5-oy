@@ -119,7 +119,9 @@ export default function Header() {
             </IconButton>
             <Drawer anchor="right" open={drawerOpen} onClose={handleDrawerToggle}>
               <List onClick={handleDrawerToggle}>
-                {renderLinks()}
+            <Stack my={2} textAlign={"center"} gap={3}>
+            {renderLinks()}
+            </Stack>
                 <Box sx={{ padding: "16px" }}>
                   <InputsWrapper>
                     <Inputs />
